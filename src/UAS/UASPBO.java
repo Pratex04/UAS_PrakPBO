@@ -28,11 +28,11 @@ public class UASPBO {
         this.id = Integer.valueOf(cin.nextLine());
         System.out.print("Masukan ToDo          : ");
         this.todo = cin.nextLine();
-        System.out.println("Masukan Kategori    : ");
+        System.out.print("Masukan Kategori    : ");
         this.kategori = cin.nextLine();
-        System.out.println("Masukan Tgl Selesai : ");
+        System.out.print("Masukan Tgl Selesai : ");
         this.tanggal = cin.nextLine();
-        System.out.println("Masukan Status      : ");
+        System.out.print("Masukan Status      : ");
         this.status = cin.nextLine();
         
         try {
@@ -88,11 +88,11 @@ public class UASPBO {
         this.id = Integer.valueOf(cin.nextLine());
         System.out.print("Masukan ToDo          [UPD]: ");
         this.todo = cin.nextLine();
-        System.out.println("Masukan Kategori    [UPD]: ");
+        System.out.print("Masukan Kategori    [UPD]: ");
         this.kategori = cin.nextLine();
-        System.out.println("Masukan Tgl Selesai [UPD]: ");
+        System.out.print("Masukan Tgl Selesai [UPD]: ");
         this.tanggal = cin.nextLine();
-        System.out.println("Masukan Status      [UPD]: ");
+        System.out.print("Masukan Status      [UPD]: ");
         this.status = cin.nextLine();
         
         try {
